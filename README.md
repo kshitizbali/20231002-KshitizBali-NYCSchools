@@ -41,4 +41,6 @@ We make use of MVVM along with the clean architecture.
 | Network-Concurrency|Kotlin Coroutines    |                                                                                   |
 | UI                |Jetpack Compose       |                                                                                   |
 | Dependency Inject.|Dagger 2, Hilt        |                                                                                   |
-| Database          |Room                  |                                                                                   |
+| Database          |Room                  | To implement offline access. Works for both list and detail screens.              |
+| Pagination        |Paging-compose lib    | To implement pagination since the original schools list api was return large 
+|                   |                      | amount of data. Loads 20 items at a time. Works well with Room and compose        |
